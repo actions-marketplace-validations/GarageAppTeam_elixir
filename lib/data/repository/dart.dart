@@ -8,7 +8,7 @@ const _parser = AnalyzeResultParser();
 
 class DartRepository {
   const DartRepository({
-    ProcessRunner runner = const ProcessRunner('flutter'),
+    ProcessRunner runner = const ProcessRunner('dart'),
   }) : _runner = runner;
 
   final ProcessRunner _runner;
