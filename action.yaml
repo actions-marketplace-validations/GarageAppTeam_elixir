@@ -26,7 +26,7 @@ runs:
 
     - name: Active elixir
       shell: bash
-      run: dart pub global activate elixir
+      run: dart pub global activate --source path elixir
 
     - name: Run elixir
       shell: bash
